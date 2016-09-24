@@ -1,0 +1,60 @@
+/*设置body通用样式*/
+body{
+	padding-top:70px;
+	font-family: "微软雅黑";
+}
+.container{
+	margin-top: 20px;
+}
+#chart1{
+	height:400px;
+}
+#chart2{
+	height:400px;
+}
+#barAll,#lineAll,#pieAll,#gauseAll{
+	height: 500px;	
+}
+#bar1,#bar2,#line1,#line2,#pie1,#pie2,#gause1,#gause2{
+	padding-top: 20px;
+	height:500px;
+}
+.carousel{
+	height: 380px;
+	background-color: #000;
+}
+.carousel .item{
+	height: 380px;
+	background: #000;
+}
+.carousel img{
+	width:100%;
+}
+.tab-content .activ {
+  display: block;
+}
+.all{
+	text-align: center;
+	line-height: 200px;
+}
+#chart1{
+	border:1px solid #ccc;
+	height: 200px;
+}
+#chart1 img{
+	border-radius: 30px;
+}
+#chart1 img:hover{  
+	-moz-opacity:0.78 !important;
+	filter:alpha(opacity=78); 
+ 	opacity: 0.78;  
+	 _-moz-opacity:0.78;
+	 background: #000; 
+}
+#label{
+	background-color: #3c3c3c;
+}
+footer{
+	background-color: #ccc;
+	height: 50px;
+}
